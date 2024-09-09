@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{ margin: 0px;}
+            header{
+                display: grid;
+                grid-template-columns: 70% 30%;
+                background-color: black;
+                color: white;
+                padding: 6px 10% 6px;
+                font-size: 18px;
+            }
+
+            #helpcenter{ 
+                text-align: right;
+            }
+
+            ul{
+                margin: 70px 0px 0px;
+                background:red;
+            
+            }
+
+            li{
+                display: inline-block;
+                padding: 18px 40px 18px;
+
+            }
+
+            a{
+                color: white;
+                font-size: 22px;
+            }
+
+            li:hover{
+                background-color: darkcyan;
+                cursor: pointer;
+            }
+
+            #banner{
+                font-size: 100px;
+                padding: 150px 0px 150px;
+                color: gold;
+                text-align: center;
+                background-image: url(1.jpg);
+                background-size: 100% 100%;
+                height: 150px;
+                text-shadow: 5px 20px 5px red;
+            }
+
+            #container{
+                width: 80%;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 20% 80%;
+                color: darkcyan;
+            }
+
+            #myservice{
+                padding: 40px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .service{
+                margin: 40px;
+                font-size: 35px;
+                color: darkblue;
+            }
+
+            aside{
+                padding: 20px;
+                box-shadow: 0px 0px 2px grey;
+                margin: 30px 0px 2px;
+            }
+            aside p{
+                color: red;
+                font-size: 18px;
+                line-height: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header> 
+            <div>  #123, Marathahalli Bangalore </div>
+            <div id="helpcenter"> 7894561230 </div>
+        </header>
+        
+        <ul> 
+            <li> <a> Home </a> </li>
+            <li> <a> Our Services </a> </li>
+            <li> <a> Technologies </a> </li>
+            <li> <a> Our Product </a> </li>
+            <li> <a> Contact Us </a></li>
+        </ul>
+
+        <section id="banner"> CSS Static Banner</section>
+
+        <section id="container"> 
+            <aside>
+                <p> Website Design </p>
+                <p> Logo Design </p>
+                <p> Website Development </p>
+                <p> Digital Marketing </p>
+                <p> Content Writing </p>
+                <p> Hire & Deploy</p>
+            </aside>
+            <aside> 
+                <div id="myservice">
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                    <div class="service"> Bangalore </div>
+                </div>
+            </aside>
+        </section>
+    </body>
+</html>
